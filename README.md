@@ -20,4 +20,7 @@ Kullanıcıların ürünleri görüntüleyip sipariş verebildiği, yöneticiler
 ## ⚙️ Kurulum
 1. Repo’yu klonla:
    ```bash
-   
+
+## 📷 Görseller
+<img width="1718" height="844" alt="Ekran görüntüsü 2025-09-30 140606" src="https://github.com/user-attachments/assets/935cedd9-2550-4844-ade5-a9122b664562" />
+<img width="1653" height="837" alt="Ekran görüntüsü 2025-09-30 140623" src="https://github.com/user-attachments/assets/adcedd41-4c05-4e1a-8ee4-f0a46503d1bd" />
