@@ -1,0 +1,190 @@
+﻿@using ETicaret.Core.DTO
+@model GetUrunlerWithKategoriDTO
+
+@section addTopLibrary {
+    <link href="~/AdminLTE/plugins/dropzone/dropzone.css" rel="stylesheet" />
+}
+
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="~/AdminPanel/Urunler/UrunlerIndex">Ürün Listesi</a></li>
+                    <li class="breadcrumb-item active">Ürün Ekle</li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<!-- Main content -->
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Ürün Ekleme alanı -->
+            <div class="col-md-12">
+                <!-- jquery validation -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">ÜRÜN EKLE</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+
+                    <form action="/Urunler/UrunKaydetIndex" id="urunKeydetIndex" method="post">
+                        <!--Ürün ekleme Body-->
+                        <div class="card-body">
+
+                            <div class="form-group">
+                                <label asp-for="UrunAdi">Ürün Adı</label>
+                                <input name="UrunAdi" asp-for="UrunAdi" type="text" class="form-control" placeholder="Ürün Adı">
+                                <span asp-validation-for="UrunAdi" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="KategoriId">Kategori Adi Seçiniz</label>
+                                @* <select asp-for="KategoriId" asp-items="ViewBag.kategoriler" class="form-control"></select> *@
+
+                                <select name="KategoriId" asp-for="KategoriId" class="form-control">
+                                    <option selected>Seçiniz...</option>
+                                    @foreach (var item in ViewBag.kategoriler)
+                                    {
+                                        <option value="@item.Id">@item.KategoriAdi</option>
+
+                                    }
+
+                                </select>
+                                <span asp-validation-for="KategoriId" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="UrunStok">Ürün Stok</label>
+                                <input name="UrunStok" asp-for="UrunStok" type="text" class="form-control" placeholder="Ürün Stok">
+                                <span asp-validation-for="UrunStok" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="UrunFiyat">Ürün Fiyat</label>
+                                <input name="UrunFiyat" asp-for="UrunFiyat" type="text" class="form-control" placeholder="Ürün Fiyat">
+                                <span asp-validation-for="UrunFiyat" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Aciklama">Ürün Açıklama</label>
+                                <input name="Aciklama" asp-for="Aciklama" type="text" class="form-control" placeholder="Ürün Açıklaması">
+                                <span asp-validation-for="Aciklama" class="text-danger"></span>
+                            </div>
+
+                        </div>
+                        <!--Resim ekleme Body-->
+
+
+                    </form>
+                </div>
+            </div>
+            <!--Fotoğraf ekleme alanı-->
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <div id="dropzone">
+                      
+                        <form action="/Urunler/Upload" class="dropzone needsclick dz-clickable" id="resimEkle">
+                            <!-- Ürün kayıt ederken resimleri Guid üzerinden hangi ürüne ait olduğunu bulacağız-->
+                            <input hidden type="text" value="@Guid.NewGuid()" name="urunGuid" />
+                            <div class="dz-message needsclick">
+                                Fotoğrafı sürükleyip bırakın veya buraya tıklayın.<br>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <br />
+                <div class="card-footer row">
+                    <div class="d-flex justify-content-center float-left">
+                        <input type="submit" class="btn btn-success" value="Ürün Kaydet" />
+                    </div>
+                </div>
+
+                @Html.Raw(ViewBag.mesaj)
+            </div>
+
+            <br />
+
+        </div>
+    </div>
+
+</section>
+
+@section addBottomLibrary {
+    <script src="~/AdminLTE/plugins/dropzone/dropzone.js"></script>
+    <script src="~/AdminLTE/plugins/jquery-validation/jquery.validate.js"></script>
+
+    <script>
+        //Dropzoen script kod alanı
+        Dropzone.discover = false;//Oto yüklemeyi kapatıyoruz.
+
+
+        var myDropzone = new Dropzone("#uploader", {
+            // $(function () {
+            //     $("#resimEkle").dropzone({
+            //autoProcessQueue: false,
+            //Ekle,Güncelle=> API web te çağrılması ve kullanılması,
+            //Pazartesi
+            dictDefaultMessage: "Yüklenecek dosyaları buraya sürükleyin veya tıklayın.",
+            maxFiles: 5, // Maksimum dosya sayısı
+            maxFilesize: 5, // MB cinsinden maksimum dosya boyutu
+            acceptedFiles: ".jpeg,.jpg,.png,.gif", // Kabul edilen dosya uzantı türleri
+            addRemoveLinks: true,//Her resmin altına Remove File ekler
+            dictRemoveFile: "SİL",//Eklenen Remove linkini SİL yapar
+
+
+            init: function () {
+
+                this.on("addedfile", function (file) {
+                   
+                    // Dosya boyutu kontrolü
+                    if (file.size > 4.349.473) { // 2 MB
+                        this.removeFile(file);
+                        alert("Dosya boyutu 2 MB'ı geçemez.");
+                        return false;
+                    }
+
+                    // Dosya sayısı kontrolü
+                    if (this.files.length > 5) {
+                        alert("Yalnızca 1 dosya yükleyebilirsiniz.");
+                        this.removeFile(this.files[1]);
+                        return false;
+                    }
+
+                    // Dosya türü kontrolü
+                    var acceptedFileTypes = ["image/jpeg", "image/jpg", "image/png", "image/gif"];
+                    if (!acceptedFileTypes.includes(file.type)) {
+                        this.removeFile(file);
+                        alert("Yalnızca resim dosyaları yükleyebilirsiniz.");
+                        return false;
+                    }
+
+                    // Dosya yükleme başarılı olduğunda
+                    this.on("success", function (file, response) {
+                        // response içinde controller'dan gelen veriler bulunur
+                        if (response.success) {
+                            // Dosya yolu input elemanına değeri ekle
+                            document.getElementById("dosyaYolu").value = response.filePath;
+                        }
+                    });
+                    // });
+                },
+                            });
+                        });
+
+
+        // document.getElementById("fotografDegistir").addEventListener("click", function () {
+        //     // Mevcut dosyayı kaldır
+        //     myDropzone.removeAllFiles();
+
+        // });
+
+    </script>
+}

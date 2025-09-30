@@ -1,0 +1,206 @@
+﻿@{
+    ViewData["Title"] = "FotografEkleIndex";
+
+}
+
+@section addTopLibrary {
+    <link href="~/AdminLTE/plugins/dropzone/dropzone.css" rel="stylesheet" />
+    <link href="~/AdminLTE/plugins/dropzone/min/dropzone.min.css" rel="stylesheet" />
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item active"><a href="~/AdminPanel/Fotograflar/FotografEkleIndex">Fotoğraf Ekle</a></li>
+                    <li class="breadcrumb-item"><a href="~/AdminPanel/Fotograflar/FotograflarIndex">Fotoğraf Listesi</a></li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<!-- Main content -->
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-12">
+                <!-- jquery validation -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Fotoğraf Ekle</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <form asp-action="FotografEkleIndex" id="fotografEkleIndex" asp-controller="Fotograflar" method="post">
+
+                        <div class="card-body">
+
+                            <div class="form-group">
+                                <label asp-for="fotografAciklamasi">Fotoğraf Açıklaması</label>
+                                <input name="fotografAciklamasi" asp-for="fotografAciklamasi" type="text" class="form-control" placeholder="Fotoğraf Açıklaması">
+                                <span asp-validation-for="fotografAciklamasi" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="FotografYolu">Fotoğraf Yolu</label>
+                                <input name="FotografYolu" asp-for="FotografYolu" type="text" class="form-control" id="dosyaYolu" placeholder="Fotoğraf Yolu" value="">
+                                <span asp-validation-for="FotografYolu" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="fotografSirasi">Fotoğraf Sırası</label>
+                                <input name="fotografSirasi" asp-for="fotografSirasi" type="text" class="form-control" placeholder="Fotoğraf Sırası">
+                                <span asp-validation-for="fotografSirasi" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="urunId">Ürün ID.</label>
+                                <input name="urunId" asp-for="urunId" type="text" class="form-control" placeholder="Ürün ID.">
+                                <span asp-validation-for="urunId" class="text-danger"></span>
+                            </div>
+
+                        </div>
+
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-success" value="Fotoğraf Ekle" />
+                        </div>
+
+                        <div>
+                            @Html.Raw(ViewBag.mesaj)
+                        </div>
+                    </form>
+
+                    <div class="col-md-12">
+                        <div id="dropzone">
+                            <form action="/Fotograflar/Upload" class="dropzone needsclick dz-clickable" id="uploader">
+                                <div class="dz-message needsclick">
+                                    Fotoğrafı sürükleyip bırakın veya buraya tıklayın.<br>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-danger" id="fotografDegistir">Fotoğraf Değiştir</button>
+                    </div>
+
+                    <br />
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section addBottomLibrary {
+
+    <script src="~/AdminLTE/plugins/jquery-validation/jquery.validate.js"></script>
+
+    <script>
+        $(function () {
+
+            $('#fotografEkleIndex').validate({
+                rules: {
+                    makaleKategori: {
+                        required: true
+                    },
+                    makaleBaslik: {
+                        required: true
+                    },
+                    makaleIcerik: {
+                        required: true
+                    }
+
+                },
+                messages: {
+                    makaleKategori: {
+                        required: "Makale Kategori alanı zorunludur"
+                    },
+                    makaleBaslik: {
+                        required: "Başlık alanı zorunludur"
+                    },
+                    makaleIcerik: {
+                        required: "Makale İçerik alanı zorunludur"
+                    }
+                },
+                errorElement: 'span',
+                errorPlacement: function (error, element) {
+                    error.addClass('invalid-feedback');
+                    element.closest('.form-group').append(error);
+                },
+                highlight: function (element, errorClass, validClass) {
+                    $(element).addClass('is-invalid');
+                },
+                unhighlight: function (element, errorClass, validClass) {
+                    $(element).removeClass('is-invalid');
+                }
+            });
+        });
+
+    </script>
+
+    <script src="~/AdminLTE/plugins/dropzone/dropzone.js"></script>
+    <script src="~/AdminLTE/plugins/dropzone/min/dropzone.min.js"></script>
+
+    <script>
+
+        var myDropzone = new Dropzone("#uploader", {
+            dictDefaultMessage: "Yüklenecek dosyaları buraya sürükleyin veya tıklayın.",
+            maxFiles: 1, // Maksimum dosya sayısı
+            maxFilesize: 2, // MB cinsinden maksimum dosya boyutu
+            acceptedFiles: ".jpeg,.jpg,.png,.gif", // Kabul edilen dosya türleri
+            init: function () {
+                this.on("addedfile", function (file) {
+
+                    // Dosya boyutu kontrolü
+                    if (file.size > 2097152) { // 2 MB
+                        this.removeFile(file);
+                        alert("Dosya boyutu 2 MB'ı geçemez.");
+                        return false;
+                    }
+
+                    // Dosya sayısı kontrolü
+                    if (this.files.length > 1) {
+                        alert("Yalnızca 1 dosya yükleyebilirsiniz.");
+                        this.removeFile(this.files[1]);
+                        return false;
+                    }
+
+                    // Dosya türü kontrolü
+                    var acceptedFileTypes = ["image/jpeg", "image/jpg", "image/png", "image/gif"];
+                    if (!acceptedFileTypes.includes(file.type)) {
+                        this.removeFile(file);
+                        alert("Yalnızca resim dosyaları yükleyebilirsiniz.");
+                        return false;
+                    }
+
+                    // Dosya yükleme başarılı olduğunda
+                    this.on("success", function (file, response) {
+                        // response içinde controller'dan gelen veriler bulunur
+                        if (response.success) {
+                            // Dosya yolu input elemanına değeri ekle
+                            document.getElementById("dosyaYolu").value = response.filePath;
+                        }
+                    });
+                });
+
+            }
+        });
+
+        document.getElementById("fotografDegistir").addEventListener("click", function () {
+            // Mevcut dosyayı kaldır
+            myDropzone.removeAllFiles();
+
+        });
+
+    </script>
+}

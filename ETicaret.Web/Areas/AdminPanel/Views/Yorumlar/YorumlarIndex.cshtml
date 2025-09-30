@@ -1,0 +1,102 @@
+﻿@using ETicaret.Core.DTO
+
+@model List<GetYorumlarWithKullanicilarDTO>
+@* @model List<GetYorumlarWithUrunlerDTO> *@
+
+@section addTopLibrary {
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="~/AdminLTE/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="~/AdminLTE/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="~/AdminLTE/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+    <!-- Theme style -->
+}
+
+@* @{
+    ViewData["Title"] = "YorumlarIndex";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+} *@
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">
+                    <a href="~/AdminPanel/Yorumlar/YorumEkleIndex" class="btn btn-success">Yeni Yorum Ekle</a>
+                </h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Yorumlar</a></li>
+                    <li class="breadcrumb-item active">Yorumlar Listesi</li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<!-- Main content -->
+
+<section class="content">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body ">
+
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>Yorum ID</th>
+                                <th>Yorum</th>
+                                <th>Yorum Tarihi</th>
+                                <th>Yorum Üst ID</th>
+                                <th>Ürün Id</th>
+                                @* <th>Ürün Adı</th> *@
+                                <th>Kullanıcı ID</th>
+                                <th>AKTİF Mİ</th>
+                                <th>Adi</th>
+                                <th>Soyadi</th>
+                                <th>E-Mail</th>
+                                <th>Güncelle</th>
+                                <th>Sil</th>
+                            </tr>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.Id</td>
+                                    <td>@item.Yorum</td>
+                                    <td>@item.EklenmeTarih</td>
+                                    <td>@item.YorumUstId</td>
+                                    <td>@item.UrunId</td>
+                                    @* <td>@item.Urunler.UrunAdi</td> *@
+                                    <td>@item.KullaniciId</td>
+                                    <td>
+                                        @{
+                                            string durum = item.AktifMi == true ? "EVET" : "HAYIR";
+                                        }
+                                        @durum
+                                    </td>
+                                    <td>@item.Kullanicilar.Adi</td>
+                                    <td>@item.Kullanicilar.Soyadi</td>
+                                    <td>@item.Kullanicilar.KullaniciEmail</td>
+                                    <td>
+
+                                        <a href='~/AdminPanel/Yorumlar/YorumGuncelleIndex/@item.Id' class='btn btn-sm btn-warning'><i class='fas fa-pencil-alt'></i></a>
+                                    </td>
+                                    <td>
+                                        <a href='~/AdminPanel/Yorumlar/YorumSilIndex/@item.Id' class='btn btn-sm btn-danger'><i class='fas fa-pencil-alt'></i></a>
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

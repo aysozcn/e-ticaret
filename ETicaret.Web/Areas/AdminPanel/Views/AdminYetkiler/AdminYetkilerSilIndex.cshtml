@@ -1,0 +1,37 @@
+﻿@using ETicaret.Core.ETicaretDatabase
+@model Yetkiler
+
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Yetki Sil</h3>
+                    </div>
+                    <form asp-action="AdminYetkilerSilIndex" id="adminYetkilerSilIndex" asp-controller="Yetkiler" method="post">
+
+                        <div class="form-group" style="margin:30px 0px 30px 30px">
+                            @Html.LabelFor(model => model.AktifMi, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                <div class="checkbox">
+                                    @Html.EditorFor(model => model.AktifMi)
+                                    @Html.ValidationMessageFor(model => model.AktifMi, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-danger" value="Yetki Sil" />
+                        </div>
+                        <div>
+                            @Html.Raw(TempData["hataMesaj"])
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

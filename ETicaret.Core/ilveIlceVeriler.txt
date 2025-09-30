@@ -1,0 +1,2118 @@
+﻿USE [ETicaretCoreDB]
+GO
+SET IDENTITY_INSERT [dbo].[Iller] ON 
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (1, N'Adana')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (2, N'Adıyaman')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (3, N'Afyon')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (4, N'Ağrı')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (5, N'Amasya')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (6, N'Ankara')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (7, N'Antalya')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (8, N'Artvin')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (9, N'Aydın')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (10, N'Balıkesir')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (11, N'Bilecik')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (12, N'Bingöl')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (13, N'Bitlis')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (14, N'Bolu')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (15, N'Burdur')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (16, N'Bursa')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (17, N'Çanakkale')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (18, N'Çankırı')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (19, N'Çorum')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (20, N'Denizli')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (21, N'Diyarbakır')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (22, N'Edirne')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (23, N'Elazığ')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (24, N'Erzincan')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (25, N'Erzurum')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (26, N'Eskişehir')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (27, N'Gaziantep')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (28, N'Giresun')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (29, N'Gümüşhane')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (30, N'Hakkari')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (31, N'Hatay')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (32, N'Isparta')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (33, N'Mersin')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (34, N'İstanbul')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (35, N'İzmir')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (36, N'Kars')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (37, N'Kastamonu')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (38, N'Kayseri')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (39, N'Kırklareli')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (40, N'Kırşehir')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (41, N'Kocaeli')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (42, N'Konya')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (43, N'Kütahya')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (44, N'Malatya')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (45, N'Manisa')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (46, N'K.Maraş')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (47, N'Mardin')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (48, N'Muğla')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (49, N'Muş')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (50, N'Nevşehir')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (51, N'Niğde')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (52, N'Ordu')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (53, N'Rize')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (54, N'Sakarya')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (55, N'Samsun')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (56, N'Siirt')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (57, N'Sinop')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (58, N'Sivas')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (59, N'Tekirdağ')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (60, N'Tokat')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (61, N'Trabzon')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (62, N'Tunceli')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (63, N'Şanlıurfa')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (64, N'Uşak')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (65, N'Van')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (66, N'Yozgat')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (67, N'Zonguldak')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (68, N'Aksaray')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (69, N'Bayburt')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (70, N'Karaman')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (71, N'Kırıkkale')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (72, N'Batman')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (73, N'Şırnak')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (74, N'Bartın')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (75, N'Ardahan')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (76, N'Iğdır')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (77, N'Yalova')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (78, N'Karabük')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (79, N'Kilis')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (80, N'Osmaniye')
+GO
+INSERT [dbo].[Iller] ([IlKodu], [IlAdi]) VALUES (81, N'Düzce')
+GO
+SET IDENTITY_INSERT [dbo].[Iller] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Ilceler] ON 
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (1, 1, N'ALADAG')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (2, 1, N'CEYHAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (3, 1, N'ÇUKUROVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (4, 1, N'FEKE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (5, 1, N'IMAMOGLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (6, 1, N'KARAISALI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (7, 1, N'KARATAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (8, 1, N'KOZAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (9, 1, N'POZANTI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (10, 1, N'SAIMBEYLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (11, 1, N'SARIÇAM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (12, 1, N'SEYHAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (13, 1, N'TUFANBEYLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (14, 1, N'YUMURTALIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (15, 1, N'YÜREGIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (16, 2, N'BESNI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (17, 2, N'ÇELIKHAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (18, 2, N'GERGER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (19, 2, N'GÖLBASI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (20, 2, N'KAHTA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (21, 2, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (22, 2, N'SAMSAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (23, 2, N'SINCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (24, 2, N'TUT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (25, 3, N'BASMAKÇI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (26, 3, N'BAYAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (27, 3, N'BOLVADIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (28, 3, N'ÇAY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (29, 3, N'ÇOBANLAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (30, 3, N'DAZKIRI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (31, 3, N'DINAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (32, 3, N'EMIRDAG')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (33, 3, N'EVCILER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (34, 3, N'HOCALAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (35, 3, N'IHSANIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (36, 3, N'ISCEHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (37, 3, N'KIZILÖREN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (38, 3, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (39, 3, N'SANDIKLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (40, 3, N'SINANPASA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (41, 3, N'SULTANDAGI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (42, 3, N'SUHUT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (43, 4, N'DIYADIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (44, 4, N'DOGUBAYAZIT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (45, 4, N'ELESKIRT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (46, 4, N'HAMUR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (47, 4, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (48, 4, N'PATNOS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (49, 4, N'TASLIÇAY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (50, 4, N'TUTAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (51, 68, N'AGAÇÖREN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (52, 68, N'ESKIL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (53, 68, N'GÜLAGAÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (54, 68, N'GÜZELYURT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (55, 68, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (56, 68, N'ORTAKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (57, 68, N'SARIYAHSI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (58, 68, N'SULTANHANI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (59, 5, N'GÖYNÜCEK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (60, 5, N'GÜMÜSHACIKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (61, 5, N'HAMAMÖZÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (62, 5, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (63, 5, N'MERZIFON')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (64, 5, N'SULUOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (65, 5, N'TASOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (66, 6, N'AKYURT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (67, 6, N'ALTINDAG')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (68, 6, N'AYAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (69, 6, N'BALA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (70, 6, N'BEYPAZARI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (71, 6, N'ÇAMLIDERE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (72, 6, N'ÇANKAYA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (73, 6, N'ÇUBUK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (74, 6, N'ELMADAG')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (75, 6, N'ETIMESGUT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (76, 6, N'EVREN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (77, 6, N'GÖLBASI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (78, 6, N'GÜDÜL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (79, 6, N'HAYMANA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (80, 6, N'KAHRAMANKAZAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (81, 6, N'KALECIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (82, 6, N'KEÇIÖREN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (83, 6, N'KIZILCAHAMAM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (84, 6, N'MAMAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (85, 6, N'NALLIHAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (86, 6, N'POLATLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (87, 6, N'PURSAKLAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (88, 6, N'SINCAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (89, 6, N'SEREFLIKOÇHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (90, 6, N'YENIMAHALLE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (91, 7, N'AKSEKI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (92, 7, N'AKSU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (93, 7, N'ALANYA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (94, 7, N'DEMRE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (95, 7, N'DÖSEMEALTI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (96, 7, N'ELMALI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (97, 7, N'FINIKE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (98, 7, N'GAZIPASA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (99, 7, N'GÜNDOGMUS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (100, 7, N'IBRADI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (101, 7, N'KAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (102, 7, N'KEMER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (103, 7, N'KEPEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (104, 7, N'KONYAALTI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (105, 7, N'KORKUTELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (106, 7, N'KUMLUCA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (107, 7, N'MANAVGAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (108, 7, N'MURATPASA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (109, 7, N'SERIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (110, 75, N'ÇILDIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (111, 75, N'DAMAL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (112, 75, N'GÖLE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (113, 75, N'HANAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (114, 75, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (115, 75, N'POSOF')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (116, 8, N'ARDANUÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (117, 8, N'ARHAVI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (118, 8, N'BORÇKA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (119, 8, N'HOPA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (120, 8, N'KEMALPASA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (121, 8, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (122, 8, N'MURGUL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (123, 8, N'SAVSAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (124, 8, N'YUSUFELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (125, 9, N'BOZDOGAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (126, 9, N'BUHARKENT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (127, 9, N'ÇINE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (128, 9, N'DIDIM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (129, 9, N'EFELER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (130, 9, N'GERMENCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (131, 9, N'INCIRLIOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (132, 9, N'KARACASU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (133, 9, N'KARPUZLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (134, 9, N'KOÇARLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (135, 9, N'KÖSK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (136, 9, N'KUSADASI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (137, 9, N'KUYUCAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (138, 9, N'NAZILLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (139, 9, N'SÖKE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (140, 9, N'SULTANHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (141, 9, N'YENIPAZAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (142, 10, N'ALTIEYLÜL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (143, 10, N'AYVALIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (144, 10, N'BALYA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (145, 10, N'BANDIRMA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (146, 10, N'BIGADIÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (147, 10, N'BURHANIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (148, 10, N'DURSUNBEY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (149, 10, N'EDREMIT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (150, 10, N'ERDEK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (151, 10, N'GÖMEÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (152, 10, N'GÖNEN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (153, 10, N'HAVRAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (154, 10, N'IVRINDI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (155, 10, N'KARESI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (156, 10, N'KEPSUT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (157, 10, N'MANYAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (158, 10, N'MARMARA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (159, 10, N'SAVASTEPE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (160, 10, N'SINDIRGI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (161, 10, N'SUSURLUK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (162, 74, N'AMASRA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (163, 74, N'KURUCASILE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (164, 74, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (165, 74, N'ULUS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (166, 72, N'BESIRI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (167, 72, N'GERCÜS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (168, 72, N'HASANKEYF')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (169, 72, N'KOZLUK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (170, 72, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (171, 72, N'SASON')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (172, 69, N'AYDINTEPE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (173, 69, N'DEMIRÖZÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (174, 69, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (175, 11, N'BOZÜYÜK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (176, 11, N'GÖLPAZARI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (177, 11, N'INHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (178, 11, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (179, 11, N'OSMANELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (180, 11, N'PAZARYERI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (181, 11, N'SÖGÜT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (182, 11, N'YENIPAZAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (183, 12, N'ADAKLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (184, 12, N'GENÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (185, 12, N'KARLIOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (186, 12, N'KIGI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (187, 12, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (188, 12, N'SOLHAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (189, 12, N'YAYLADERE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (190, 12, N'YEDISU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (191, 13, N'ADILCEVAZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (192, 13, N'AHLAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (193, 13, N'GÜROYMAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (194, 13, N'HIZAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (195, 13, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (196, 13, N'MUTKI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (197, 13, N'TATVAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (198, 14, N'DÖRTDIVAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (199, 14, N'GEREDE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (200, 14, N'GÖYNÜK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (201, 14, N'KIBRISCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (202, 14, N'MENGEN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (203, 14, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (204, 14, N'MUDURNU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (205, 14, N'SEBEN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (206, 14, N'YENIÇAGA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (207, 15, N'AGLASUN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (208, 15, N'ALTINYAYLA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (209, 15, N'BUCAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (210, 15, N'ÇAVDIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (211, 15, N'ÇELTIKÇI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (212, 15, N'GÖLHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (213, 15, N'KARAMANLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (214, 15, N'KEMER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (215, 15, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (216, 15, N'TEFENNI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (217, 15, N'YESILOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (218, 16, N'BÜYÜKORHAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (219, 16, N'GEMLIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (220, 16, N'GÜRSU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (221, 16, N'HARMANCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (222, 16, N'INEGÖL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (223, 16, N'IZNIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (224, 16, N'KARACABEY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (225, 16, N'KELES')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (226, 16, N'KESTEL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (227, 16, N'MUDANYA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (228, 16, N'MUSTAFAKEMALPASA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (229, 16, N'NILÜFER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (230, 16, N'ORHANELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (231, 16, N'ORHANGAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (232, 16, N'OSMANGAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (233, 16, N'YENISEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (234, 16, N'YILDIRIM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (235, 17, N'AYVACIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (236, 17, N'BAYRAMIÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (237, 17, N'BIGA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (238, 17, N'BOZCAADA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (239, 17, N'ÇAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (240, 17, N'ECEABAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (241, 17, N'EZINE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (242, 17, N'GELIBOLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (243, 17, N'GÖKÇEADA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (244, 17, N'LAPSEKI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (245, 17, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (246, 17, N'YENICE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (247, 18, N'ATKARACALAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (248, 18, N'BAYRAMÖREN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (249, 18, N'ÇERKES')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (250, 18, N'ELDIVAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (251, 18, N'ILGAZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (252, 18, N'KIZILIRMAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (253, 18, N'KORGUN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (254, 18, N'KURSUNLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (255, 18, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (256, 18, N'ORTA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (257, 18, N'SABANÖZÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (258, 18, N'YAPRAKLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (259, 19, N'ALACA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (260, 19, N'BAYAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (261, 19, N'BOGAZKALE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (262, 19, N'DODURGA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (263, 19, N'ISKILIP')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (264, 19, N'KARGI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (265, 19, N'LAÇIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (266, 19, N'MECITÖZÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (267, 19, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (268, 19, N'OGUZLAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (269, 19, N'ORTAKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (270, 19, N'OSMANCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (271, 19, N'SUNGURLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (272, 19, N'UGURLUDAG')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (273, 20, N'ACIPAYAM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (274, 20, N'BABADAG')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (275, 20, N'BAKLAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (276, 20, N'BEKILLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (277, 20, N'BEYAGAÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (278, 20, N'BOZKURT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (279, 20, N'BULDAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (280, 20, N'ÇAL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (281, 20, N'ÇAMELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (282, 20, N'ÇARDAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (283, 20, N'ÇIVRIL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (284, 20, N'GÜNEY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (285, 20, N'HONAZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (286, 20, N'KALE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (287, 20, N'MERKEZEFENDI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (288, 20, N'PAMUKKALE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (289, 20, N'SARAYKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (290, 20, N'SERINHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (291, 20, N'TAVAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (292, 21, N'BAGLAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (293, 21, N'BISMIL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (294, 21, N'ÇERMIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (295, 21, N'ÇINAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (296, 21, N'ÇÜNGÜS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (297, 21, N'DICLE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (298, 21, N'EGIL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (299, 21, N'ERGANI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (300, 21, N'HANI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (301, 21, N'HAZRO')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (302, 21, N'KAYAPINAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (303, 21, N'KOCAKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (304, 21, N'KULP')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (305, 21, N'LICE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (306, 21, N'SILVAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (307, 21, N'SUR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (308, 21, N'YENISEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (309, 81, N'AKÇAKOCA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (310, 81, N'CUMAYERI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (311, 81, N'ÇILIMLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (312, 81, N'GÖLYAKA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (313, 81, N'GÜMÜSOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (314, 81, N'KAYNASLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (315, 81, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (316, 81, N'YIGILCA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (317, 22, N'ENEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (318, 22, N'HAVSA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (319, 22, N'IPSALA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (320, 22, N'KESAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (321, 22, N'LALAPASA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (322, 22, N'MERIÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (323, 22, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (324, 22, N'SÜLOGLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (325, 22, N'UZUNKÖPRÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (326, 23, N'AGIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (327, 23, N'ALACAKAYA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (328, 23, N'ARICAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (329, 23, N'BASKIL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (330, 23, N'KARAKOÇAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (331, 23, N'KEBAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (332, 23, N'KOVANCILAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (333, 23, N'MADEN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (334, 23, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (335, 23, N'PALU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (336, 23, N'SIVRICE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (337, 24, N'ÇAYIRLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (338, 24, N'ILIÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (339, 24, N'KEMAH')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (340, 24, N'KEMALIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (341, 24, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (342, 24, N'OTLUKBELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (343, 24, N'REFAHIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (344, 24, N'TERCAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (345, 24, N'ÜZÜMLÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (346, 25, N'ASKALE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (347, 25, N'AZIZIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (348, 25, N'ÇAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (349, 25, N'HINIS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (350, 25, N'HORASAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (351, 25, N'ISPIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (352, 25, N'KARAÇOBAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (353, 25, N'KARAYAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (354, 25, N'KÖPRÜKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (355, 25, N'NARMAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (356, 25, N'OLTU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (357, 25, N'OLUR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (358, 25, N'PALANDÖKEN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (359, 25, N'PASINLER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (360, 25, N'PAZARYOLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (361, 25, N'SENKAYA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (362, 25, N'TEKMAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (363, 25, N'TORTUM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (364, 25, N'UZUNDERE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (365, 25, N'YAKUTIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (366, 26, N'ALPU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (367, 26, N'BEYLIKOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (368, 26, N'ÇIFTELER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (369, 26, N'GÜNYÜZÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (370, 26, N'HAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (371, 26, N'INÖNÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (372, 26, N'MAHMUDIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (373, 26, N'MIHALGAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (374, 26, N'MIHALIÇÇIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (375, 26, N'ODUNPAZARI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (376, 26, N'SARICAKAYA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (377, 26, N'SEYITGAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (378, 26, N'SIVRIHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (379, 26, N'TEPEBASI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (380, 27, N'ARABAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (381, 27, N'ISLAHIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (382, 27, N'KARKAMIS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (383, 27, N'NIZIP')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (384, 27, N'NURDAGI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (385, 27, N'OGUZELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (386, 27, N'SAHINBEY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (387, 27, N'SEHITKAMIL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (388, 27, N'YAVUZELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (389, 28, N'ALUCRA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (390, 28, N'BULANCAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (391, 28, N'ÇAMOLUK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (392, 28, N'ÇANAKÇI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (393, 28, N'DERELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (394, 28, N'DOGANKENT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (395, 28, N'ESPIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (396, 28, N'EYNESIL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (397, 28, N'GÖRELE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (398, 28, N'GÜCE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (399, 28, N'KESAP')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (400, 28, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (401, 28, N'PIRAZIZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (402, 28, N'SEBINKARAHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (403, 28, N'TIREBOLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (404, 28, N'YAGLIDERE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (405, 29, N'KELKIT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (406, 29, N'KÖSE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (407, 29, N'KÜRTÜN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (408, 29, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (409, 29, N'SIRAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (410, 29, N'TORUL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (411, 30, N'ÇUKURCA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (412, 30, N'DERECIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (413, 30, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (414, 30, N'SEMDINLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (415, 30, N'YÜKSEKOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (416, 31, N'ALTINÖZÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (417, 31, N'ANTAKYA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (418, 31, N'ARSUZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (419, 31, N'BELEN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (420, 31, N'DEFNE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (421, 31, N'DÖRTYOL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (422, 31, N'ERZIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (423, 31, N'HASSA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (424, 31, N'ISKENDERUN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (425, 31, N'KIRIKHAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (426, 31, N'KUMLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (427, 31, N'PAYAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (428, 31, N'REYHANLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (429, 31, N'SAMANDAG')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (430, 31, N'YAYLADAGI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (431, 76, N'ARALIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (432, 76, N'KARAKOYUNLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (433, 76, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (434, 76, N'TUZLUCA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (435, 32, N'AKSU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (436, 32, N'ATABEY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (437, 32, N'EGIRDIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (438, 32, N'GELENDOST')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (439, 32, N'GÖNEN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (440, 32, N'KEÇIBORLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (441, 32, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (442, 32, N'SENIRKENT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (443, 32, N'SÜTÇÜLER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (444, 32, N'SARKIKARAAGAÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (445, 32, N'ULUBORLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (446, 32, N'YALVAÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (447, 32, N'YENISARBADEMLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (448, 34, N'ADALAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (449, 34, N'ARNAVUTKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (450, 34, N'ATASEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (451, 34, N'AVCILAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (452, 34, N'BAGCILAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (453, 34, N'BAHÇELIEVLER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (454, 34, N'BAKIRKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (455, 34, N'BASAKSEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (456, 34, N'BAYRAMPASA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (457, 34, N'BESIKTAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (458, 34, N'BEYKOZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (459, 34, N'BEYLIKDÜZÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (460, 34, N'BEYOGLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (461, 34, N'BÜYÜKÇEKMECE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (462, 34, N'ÇATALCA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (463, 34, N'ÇEKMEKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (464, 34, N'ESENLER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (465, 34, N'ESENYURT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (466, 34, N'EYÜPSULTAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (467, 34, N'FATIH')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (468, 34, N'GAZIOSMANPASA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (469, 34, N'GÜNGÖREN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (470, 34, N'KADIKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (471, 34, N'KAGITHANE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (472, 34, N'KARTAL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (473, 34, N'KÜÇÜKÇEKMECE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (474, 34, N'MALTEPE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (475, 34, N'PENDIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (476, 34, N'SANCAKTEPE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (477, 34, N'SARIYER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (478, 34, N'SILIVRI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (479, 34, N'SULTANBEYLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (480, 34, N'SULTANGAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (481, 34, N'SILE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (482, 34, N'SISLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (483, 34, N'TUZLA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (484, 34, N'ÜMRANIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (485, 34, N'ÜSKÜDAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (486, 34, N'ZEYTINBURNU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (487, 35, N'ALIAGA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (488, 35, N'BALÇOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (489, 35, N'BAYINDIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (490, 35, N'BAYRAKLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (491, 35, N'BERGAMA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (492, 35, N'BEYDAG')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (493, 35, N'BORNOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (494, 35, N'BUCA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (495, 35, N'ÇESME')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (496, 35, N'ÇIGLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (497, 35, N'DIKILI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (498, 35, N'FOÇA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (499, 35, N'GAZIEMIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (500, 35, N'GÜZELBAHÇE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (501, 35, N'KARABAGLAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (502, 35, N'KARABURUN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (503, 35, N'KARSIYAKA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (504, 35, N'KEMALPASA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (505, 35, N'KINIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (506, 35, N'KIRAZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (507, 35, N'KONAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (508, 35, N'MENDERES')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (509, 35, N'MENEMEN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (510, 35, N'NARLIDERE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (511, 35, N'ÖDEMIS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (512, 35, N'SEFERIHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (513, 35, N'SELÇUK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (514, 35, N'TIRE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (515, 35, N'TORBALI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (516, 35, N'URLA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (517, 46, N'AFSIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (518, 46, N'ANDIRIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (519, 46, N'ÇAGLAYANCERIT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (520, 46, N'DULKADIROGLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (521, 46, N'EKINÖZÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (522, 46, N'ELBISTAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (523, 46, N'GÖKSUN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (524, 46, N'NURHAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (525, 46, N'ONIKISUBAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (526, 46, N'PAZARCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (527, 46, N'TÜRKOGLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (528, 78, N'EFLANI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (529, 78, N'ESKIPAZAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (530, 78, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (531, 78, N'OVACIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (532, 78, N'SAFRANBOLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (533, 78, N'YENICE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (534, 70, N'AYRANCI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (535, 70, N'BASYAYLA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (536, 70, N'ERMENEK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (537, 70, N'KAZIMKARABEKIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (538, 70, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (539, 70, N'SARIVELILER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (540, 36, N'AKYAKA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (541, 36, N'ARPAÇAY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (542, 36, N'DIGOR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (543, 36, N'KAGIZMAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (544, 36, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (545, 36, N'SARIKAMIS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (546, 36, N'SELIM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (547, 36, N'SUSUZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (548, 37, N'ABANA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (549, 37, N'AGLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (550, 37, N'ARAÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (551, 37, N'AZDAVAY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (552, 37, N'BOZKURT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (553, 37, N'CIDE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (554, 37, N'ÇATALZEYTIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (555, 37, N'DADAY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (556, 37, N'DEVREKANI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (557, 37, N'DOGANYURT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (558, 37, N'HANÖNÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (559, 37, N'IHSANGAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (560, 37, N'INEBOLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (561, 37, N'KÜRE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (562, 37, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (563, 37, N'PINARBASI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (564, 37, N'SEYDILER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (565, 37, N'SENPAZAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (566, 37, N'TASKÖPRÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (567, 37, N'TOSYA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (568, 38, N'AKKISLA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (569, 38, N'BÜNYAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (570, 38, N'DEVELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (571, 38, N'FELAHIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (572, 38, N'HACILAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (573, 38, N'INCESU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (574, 38, N'KOCASINAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (575, 38, N'MELIKGAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (576, 38, N'ÖZVATAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (577, 38, N'PINARBASI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (578, 38, N'SARIOGLAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (579, 38, N'SARIZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (580, 38, N'TALAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (581, 38, N'TOMARZA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (582, 38, N'YAHYALI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (583, 38, N'YESILHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (584, 71, N'BAHSILI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (585, 71, N'BALISEYH')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (586, 71, N'ÇELEBI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (587, 71, N'DELICE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (588, 71, N'KARAKEÇILI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (589, 71, N'KESKIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (590, 71, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (591, 71, N'SULAKYURT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (592, 71, N'YAHSIHAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (593, 39, N'BABAESKI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (594, 39, N'DEMIRKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (595, 39, N'KOFÇAZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (596, 39, N'LÜLEBURGAZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (597, 39, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (598, 39, N'PEHLIVANKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (599, 39, N'PINARHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (600, 39, N'VIZE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (601, 40, N'AKÇAKENT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (602, 40, N'AKPINAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (603, 40, N'BOZTEPE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (604, 40, N'ÇIÇEKDAGI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (605, 40, N'KAMAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (606, 40, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (607, 40, N'MUCUR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (608, 79, N'ELBEYLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (609, 79, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (610, 79, N'MUSABEYLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (611, 79, N'POLATELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (612, 41, N'BASISKELE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (613, 41, N'ÇAYIROVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (614, 41, N'DARICA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (615, 41, N'DERINCE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (616, 41, N'DILOVASI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (617, 41, N'GEBZE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (618, 41, N'GÖLCÜK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (619, 41, N'IZMIT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (620, 41, N'KANDIRA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (621, 41, N'KARAMÜRSEL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (622, 41, N'KARTEPE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (623, 41, N'KÖRFEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (624, 42, N'AHIRLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (625, 42, N'AKÖREN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (626, 42, N'AKSEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (627, 42, N'ALTINEKIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (628, 42, N'BEYSEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (629, 42, N'BOZKIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (630, 42, N'CIHANBEYLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (631, 42, N'ÇELTIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (632, 42, N'ÇUMRA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (633, 42, N'DERBENT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (634, 42, N'DEREBUCAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (635, 42, N'DOGANHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (636, 42, N'EMIRGAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (637, 42, N'EREGLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (638, 42, N'GÜNEYSINIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (639, 42, N'HADIM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (640, 42, N'HALKAPINAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (641, 42, N'HÜYÜK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (642, 42, N'ILGIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (643, 42, N'KADINHANI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (644, 42, N'KARAPINAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (645, 42, N'KARATAY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (646, 42, N'KULU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (647, 42, N'MERAM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (648, 42, N'SARAYÖNÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (649, 42, N'SELÇUKLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (650, 42, N'SEYDISEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (651, 42, N'TASKENT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (652, 42, N'TUZLUKÇU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (653, 42, N'YALIHÜYÜK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (654, 42, N'YUNAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (655, 43, N'ALTINTAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (656, 43, N'ASLANAPA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (657, 43, N'ÇAVDARHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (658, 43, N'DOMANIÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (659, 43, N'DUMLUPINAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (660, 43, N'EMET')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (661, 43, N'GEDIZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (662, 43, N'HISARCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (663, 43, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (664, 43, N'PAZARLAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (665, 43, N'SIMAV')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (666, 43, N'SAPHANE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (667, 43, N'TAVSANLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (668, 44, N'AKÇADAG')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (669, 44, N'ARAPGIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (670, 44, N'ARGUVAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (671, 44, N'BATTALGAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (672, 44, N'DARENDE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (673, 44, N'DOGANSEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (674, 44, N'DOGANYOL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (675, 44, N'HEKIMHAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (676, 44, N'KALE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (677, 44, N'KULUNCAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (678, 44, N'PÜTÜRGE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (679, 44, N'YAZIHAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (680, 44, N'YESILYURT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (681, 45, N'AHMETLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (682, 45, N'AKHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (683, 45, N'ALASEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (684, 45, N'DEMIRCI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (685, 45, N'GÖLMARMARA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (686, 45, N'GÖRDES')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (687, 45, N'KIRKAGAÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (688, 45, N'KÖPRÜBASI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (689, 45, N'KULA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (690, 45, N'SALIHLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (691, 45, N'SARIGÖL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (692, 45, N'SARUHANLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (693, 45, N'SELENDI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (694, 45, N'SOMA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (695, 45, N'SEHZADELER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (696, 45, N'TURGUTLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (697, 45, N'YUNUSEMRE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (698, 47, N'ARTUKLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (699, 47, N'DARGEÇIT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (700, 47, N'DERIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (701, 47, N'KIZILTEPE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (702, 47, N'MAZIDAGI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (703, 47, N'MIDYAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (704, 47, N'NUSAYBIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (705, 47, N'ÖMERLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (706, 47, N'SAVUR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (707, 47, N'YESILLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (708, 33, N'AKDENIZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (709, 33, N'ANAMUR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (710, 33, N'AYDINCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (711, 33, N'BOZYAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (712, 33, N'ÇAMLIYAYLA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (713, 33, N'ERDEMLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (714, 33, N'GÜLNAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (715, 33, N'MEZITLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (716, 33, N'MUT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (717, 33, N'SILIFKE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (718, 33, N'TARSUS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (719, 33, N'TOROSLAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (720, 33, N'YENISEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (721, 48, N'BODRUM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (722, 48, N'DALAMAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (723, 48, N'DATÇA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (724, 48, N'FETHIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (725, 48, N'KAVAKLIDERE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (726, 48, N'KÖYCEGIZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (727, 48, N'MARMARIS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (728, 48, N'MENTESE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (729, 48, N'MILAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (730, 48, N'ORTACA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (731, 48, N'SEYDIKEMER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (732, 48, N'ULA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (733, 48, N'YATAGAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (734, 49, N'BULANIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (735, 49, N'HASKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (736, 49, N'KORKUT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (737, 49, N'MALAZGIRT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (738, 49, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (739, 49, N'VARTO')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (740, 50, N'ACIGÖL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (741, 50, N'AVANOS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (742, 50, N'DERINKUYU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (743, 50, N'GÜLSEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (744, 50, N'HACIBEKTAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (745, 50, N'KOZAKLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (746, 50, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (747, 50, N'ÜRGÜP')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (748, 51, N'ALTUNHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (749, 51, N'BOR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (750, 51, N'ÇAMARDI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (751, 51, N'ÇIFTLIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (752, 51, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (753, 51, N'ULUKISLA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (754, 52, N'AKKUS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (755, 52, N'ALTINORDU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (756, 52, N'AYBASTI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (757, 52, N'ÇAMAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (758, 52, N'ÇATALPINAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (759, 52, N'ÇAYBASI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (760, 52, N'FATSA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (761, 52, N'GÖLKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (762, 52, N'GÜLYALI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (763, 52, N'GÜRGENTEPE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (764, 52, N'IKIZCE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (765, 52, N'KABADÜZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (766, 52, N'KABATAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (767, 52, N'KORGAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (768, 52, N'KUMRU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (769, 52, N'MESUDIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (770, 52, N'PERSEMBE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (771, 52, N'ULUBEY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (772, 52, N'ÜNYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (773, 80, N'BAHÇE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (774, 80, N'DÜZIÇI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (775, 80, N'HASANBEYLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (776, 80, N'KADIRLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (777, 80, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (778, 80, N'SUMBAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (779, 80, N'TOPRAKKALE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (780, 53, N'ARDESEN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (781, 53, N'ÇAMLIHEMSIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (782, 53, N'ÇAYELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (783, 53, N'DEREPAZARI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (784, 53, N'FINDIKLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (785, 53, N'GÜNEYSU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (786, 53, N'HEMSIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (787, 53, N'IKIZDERE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (788, 53, N'IYIDERE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (789, 53, N'KALKANDERE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (790, 53, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (791, 53, N'PAZAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (792, 54, N'ADAPAZARI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (793, 54, N'AKYAZI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (794, 54, N'ARIFIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (795, 54, N'ERENLER')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (796, 54, N'FERIZLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (797, 54, N'GEYVE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (798, 54, N'HENDEK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (799, 54, N'KARAPÜRÇEK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (800, 54, N'KARASU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (801, 54, N'KAYNARCA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (802, 54, N'KOCAALI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (803, 54, N'PAMUKOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (804, 54, N'SAPANCA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (805, 54, N'SERDIVAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (806, 54, N'SÖGÜTLÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (807, 54, N'TARAKLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (808, 55, N'19 MAYIS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (809, 55, N'ALAÇAM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (810, 55, N'ASARCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (811, 55, N'ATAKUM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (812, 55, N'AYVACIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (813, 55, N'BAFRA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (814, 55, N'CANIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (815, 55, N'ÇARSAMBA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (816, 55, N'HAVZA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (817, 55, N'ILKADIM')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (818, 55, N'KAVAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (819, 55, N'LADIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (820, 55, N'SALIPAZARI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (821, 55, N'TEKKEKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (822, 55, N'TERME')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (823, 55, N'VEZIRKÖPRÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (824, 55, N'YAKAKENT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (825, 56, N'BAYKAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (826, 56, N'ERUH')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (827, 56, N'KURTALAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (828, 56, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (829, 56, N'PERVARI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (830, 56, N'SIRVAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (831, 56, N'TILLO')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (832, 57, N'AYANCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (833, 57, N'BOYABAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (834, 57, N'DIKMEN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (835, 57, N'DURAGAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (836, 57, N'ERFELEK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (837, 57, N'GERZE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (838, 57, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (839, 57, N'SARAYDÜZÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (840, 57, N'TÜRKELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (841, 58, N'AKINCILAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (842, 58, N'ALTINYAYLA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (843, 58, N'DIVRIGI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (844, 58, N'DOGANSAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (845, 58, N'GEMEREK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (846, 58, N'GÖLOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (847, 58, N'GÜRÜN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (848, 58, N'HAFIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (849, 58, N'IMRANLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (850, 58, N'KANGAL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (851, 58, N'KOYULHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (852, 58, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (853, 58, N'SUSEHRI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (854, 58, N'SARKISLA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (855, 58, N'ULAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (856, 58, N'YILDIZELI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (857, 58, N'ZARA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (858, 63, N'AKÇAKALE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (859, 63, N'BIRECIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (860, 63, N'BOZOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (861, 63, N'CEYLANPINAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (862, 63, N'EYYÜBIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (863, 63, N'HALFETI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (864, 63, N'HALILIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (865, 63, N'HARRAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (866, 63, N'HILVAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (867, 63, N'KARAKÖPRÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (868, 63, N'SIVEREK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (869, 63, N'SURUÇ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (870, 63, N'VIRANSEHIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (871, 73, N'BEYTÜSSEBAP')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (872, 73, N'CIZRE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (873, 73, N'GÜÇLÜKONAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (874, 73, N'IDIL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (875, 73, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (876, 73, N'SILOPI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (877, 73, N'ULUDERE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (878, 59, N'ÇERKEZKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (879, 59, N'ÇORLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (880, 59, N'ERGENE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (881, 59, N'HAYRABOLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (882, 59, N'KAPAKLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (883, 59, N'MALKARA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (884, 59, N'MARMARAEREGLISI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (885, 59, N'MURATLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (886, 59, N'SARAY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (887, 59, N'SÜLEYMANPASA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (888, 59, N'SARKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (889, 60, N'ALMUS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (890, 60, N'ARTOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (891, 60, N'BASÇIFTLIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (892, 60, N'ERBAA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (893, 60, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (894, 60, N'NIKSAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (895, 60, N'PAZAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (896, 60, N'RESADIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (897, 60, N'SULUSARAY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (898, 60, N'TURHAL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (899, 60, N'YESILYURT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (900, 60, N'ZILE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (901, 61, N'AKÇAABAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (902, 61, N'ARAKLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (903, 61, N'ARSIN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (904, 61, N'BESIKDÜZÜ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (905, 61, N'ÇARSIBASI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (906, 61, N'ÇAYKARA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (907, 61, N'DERNEKPAZARI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (908, 61, N'DÜZKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (909, 61, N'HAYRAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (910, 61, N'KÖPRÜBASI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (911, 61, N'MAÇKA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (912, 61, N'OF')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (913, 61, N'ORTAHISAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (914, 61, N'SÜRMENE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (915, 61, N'SALPAZARI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (916, 61, N'TONYA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (917, 61, N'VAKFIKEBIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (918, 61, N'YOMRA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (919, 62, N'ÇEMISGEZEK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (920, 62, N'HOZAT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (921, 62, N'MAZGIRT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (922, 62, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (923, 62, N'NAZIMIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (924, 62, N'OVACIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (925, 62, N'PERTEK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (926, 62, N'PÜLÜMÜR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (927, 64, N'BANAZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (928, 64, N'ESME')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (929, 64, N'KARAHALLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (930, 64, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (931, 64, N'SIVASLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (932, 64, N'ULUBEY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (933, 65, N'BAHÇESARAY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (934, 65, N'BASKALE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (935, 65, N'ÇALDIRAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (936, 65, N'ÇATAK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (937, 65, N'EDREMIT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (938, 65, N'ERCIS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (939, 65, N'GEVAS')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (940, 65, N'GÜRPINAR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (941, 65, N'IPEKYOLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (942, 65, N'MURADIYE')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (943, 65, N'ÖZALP')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (944, 65, N'SARAY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (945, 65, N'TUSBA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (946, 77, N'ALTINOVA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (947, 77, N'ARMUTLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (948, 77, N'ÇINARCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (949, 77, N'ÇIFTLIKKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (950, 77, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (951, 77, N'TERMAL')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (952, 66, N'AKDAGMADENI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (953, 66, N'AYDINCIK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (954, 66, N'BOGAZLIYAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (955, 66, N'ÇANDIR')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (956, 66, N'ÇAYIRALAN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (957, 66, N'ÇEKEREK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (958, 66, N'KADISEHRI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (959, 66, N'MERKEZ')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (960, 66, N'SARAYKENT')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (961, 66, N'SARIKAYA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (962, 66, N'SORGUN')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (963, 66, N'SEFAATLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (964, 66, N'YENIFAKILI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (965, 66, N'YERKÖY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (966, 67, N'ALAPLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (967, 67, N'ÇAYCUMA')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (968, 67, N'DEVREK')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (969, 67, N'EREGLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (970, 67, N'GÖKÇEBEY')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (971, 67, N'KILIMLI')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (972, 67, N'KOZLU')
+GO
+INSERT [dbo].[Ilceler] ([IlceKodu], [IlKodu], [IlceAdi]) VALUES (973, 67, N'MERKEZ')
+GO
+SET IDENTITY_INSERT [dbo].[Ilceler] OFF
+GO

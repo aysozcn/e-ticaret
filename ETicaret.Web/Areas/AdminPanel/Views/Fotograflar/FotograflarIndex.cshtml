@@ -1,0 +1,150 @@
+﻿@using ETicaret.Core.DTO
+
+@model List<GetFotograflarWithUrunlerDTO>
+
+@{
+    ViewData["Title"] = "FotograflarIndex";
+    
+}
+
+@section addTopLibrary {
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="~/AdminLTE/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="~/AdminLTE/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="~/AdminLTE/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+    <!-- Theme style -->
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">
+                    <a href='~/AdminPanel/Fotograflar/FotografEkleIndex' class='btn btn-block btn-success col-md-3'>Yeni Fotoğraf Ekle</a>
+                </h1>
+            </div><!-- /.col -->
+
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item active"><a href="~/AdminPanel/Fotograflar/FotograflarIndex">Fotoğraflar</a></li>
+                    <li class="breadcrumb-item"><a href="~/AdminPanel/AdminAnasayfa/AdminAnasayfaIndex">Admin Panel</a></li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<!-- Main content -->
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="example1" class="table table-bordered table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID.</th>
+                                    <th>FOTOĞRAF AÇIKLAMASI</th>
+                                    <th>FOTOĞRAF YOLU</th>
+                                    <th>FOTOĞRAF SIRASI</th>
+                                    <th>ÜRÜN ID.</th>
+                                    <th>AKTİF Mİ</th>
+                                    <th>EKLENME TARİHİ</th>
+                                    <th>GÜNCELLE</th>
+                                    <th>FOTO. SİL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+
+                                        <td>@item.FotografAciklamasi</td>
+
+                                        <td>@item.FotografYolu</td>
+
+                                        <td>@item.FotografSirasi</td>
+
+                                        <td>@item.UrunId</td>
+
+                                        <td>
+                                            @{
+                                                string durum = item.AktifMi == true ? "EVET" : "HAYIR";
+                                            }
+                                            @durum
+                                            </td>
+
+                                        <td>@item.EklenmeTarih</td>
+
+                                        <td>
+                                            <a href='~/AdminPanel/Fotograflar/FotografGuncelleIndex/@item.Id' class='btn btn-sm btn-warning' style="width:100%;"><i class='fas fa-pencil-alt'></i></a>
+                                        </td>
+
+                                        <td>
+                                            <a href='~/AdminPanel/Fotograflar/FotografSilIndex/@item.Id' class='btn btn-sm btn-danger' style="width:100%;"><i class='fas fas fa-trash'></i></a>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                            <tfoot>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            @Html.Raw(TempData["guncellemeMesaj"])
+        </div>
+
+    </div>
+</section>
+
+@section addBottomLibrary {
+
+    <script src="~/AdminLTE/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/AdminLTE/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/AdminLTE/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="~/AdminLTE/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="~/AdminLTE/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="~/AdminLTE/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="~/AdminLTE/plugins/jszip/jszip.min.js"></script>
+    <script src="~/AdminLTE/plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="~/AdminLTE/plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="~/AdminLTE/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="~/AdminLTE/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="~/AdminLTE/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+    <script src="~/AdminLTE/dist/js/adminlte.min.js"></script>
+    <script>
+        $(function () {
+            $("#example1").DataTable({
+                "responsive": true, "lengthChange": false, "autoWidth": false,
+                "buttons": [
+                    "copy",
+                    // "csv",
+                    "excel",
+                    "pdf",
+                    "print",
+                    "colvis"]
+            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+            $('#example2').DataTable({
+                "paging": true,
+                "lengthChange": false,
+                "searching": false,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+            });
+        });
+        </script>
+}

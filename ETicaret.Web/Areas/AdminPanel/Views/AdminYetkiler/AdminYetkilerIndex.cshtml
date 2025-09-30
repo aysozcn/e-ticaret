@@ -1,0 +1,60 @@
+﻿@using ETicaret.Core.DTO
+
+@model List<YetkilerDTO>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <a href='~/AdminPanel/AdminYetkiler/AdminYetkilerKaydetIndex' class="btn btn-primary btn-block mb-3">Yetki Ekle</a>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Yetkiler</h3>
+
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <ul class="nav nav-pills flex-column">
+                            <li class="nav-item active">
+
+                                @foreach (var item in Model)
+                                {
+                                    <div href="#" class="nav-link">
+                                        <i class=""></i> @item.YetkiAdi
+                                        <a href='/AdminPanel/AdminYetkiler/AdminYetkilerSilIndex/@item.Id' class='btn btn-sm btn-danger float-right'><i class='fas fa-trash'></i></a>
+                                        <a href='/AdminPanel/AdminYetkiler/AdminYetkilerGuncelleIndex/?yetkiId=@item.Id' class='btn btn-sm btn-warning float-right'><i class='fas fa-pencil-alt'></i></a>
+                                    </div>
+                                }
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card card-info card-outline">
+                    <div class="card-header">
+                        <h5 class="card-title">Görülebilir Alanlar</h5>
+                    </div>
+                    <div class="card-body">
+                        @foreach (var item in ViewData["erisimAlani"] as List<ErisimAlanlariDTO>)
+                        {
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" type="checkbox" id="customCheckbox(@item.Id)" disabled>
+                                <label for="customCheckbox(@item.Id)" class="custom-control-label">@item.ControllerAdi</label>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,236 @@
+﻿@using ETicaret.Web.Models
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	@* <script src="~/lib/jquery/dist/jquery.min.js"></script> *@
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Boutique | Ecommerce bootstrap template</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="all,follow">
+	<!-- gLightbox gallery-->
+	<link rel="stylesheet" href="~/distribution/vendor/glightbox/css/glightbox.min.css">
+	<!-- Range slider-->
+	<link rel="stylesheet" href="~/distribution/vendor/nouislider/nouislider.min.css">
+	<!-- Choices CSS-->
+	<link rel="stylesheet" href="~/distribution/vendor/choices.js/public/assets/styles/choices.min.css">
+	<!-- Swiper slider-->
+	<link rel="stylesheet" href="~/distribution/vendor/swiper/swiper-bundle.min.css">
+	<!-- Google fonts-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&amp;display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;800&amp;display=swap">
+	<!-- theme stylesheet-->
+	<link rel="stylesheet" href="~/distribution/css/style.default.css" id="theme-stylesheet">
+	<!-- Custom stylesheet - for your changes-->
+	<link rel="stylesheet" href="~/distribution/css/custom.css">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="~/distribution/img/favicon.png">
+	<link href="~/css/login.css" rel="stylesheet" />
+</head>
+@RenderSection("menuCSS", false)
+<body>
+	<div class="page-holder">
+		<!-- navbar-->
+		<header class="header bg-white">
+			<div class="container px-lg-3">
+				<nav class="navbar navbar-expand-lg navbar-light py-3 px-lg-0">
+					<a class="navbar-brand" href="~/Anasayfa/AnasayfaIndex"><span class="fw-bold text-uppercase text-dark">Mod'a By Ayse</span></a>
+					<button class="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto">
+							@if (false != false)
+							{
+								@foreach (var item in ViewBag.menuList)
+								{
+									<li class="nav-item">
+										<!-- Link--><a class="nav-link active" href="~/@item.ControllerName/@item.ViewName">Anasayfa</a>
+									</li>
+								
+								@* 	<li class="nav-item">
+										<!-- Link--><a class="nav-link" href="~/">Ürünler</a>
+									</li> *@
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" id="pagesDropdown" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ürünler</a>
+										<div class="dropdown-menu mt-3 shadow-sm" aria-labelledby="pagesDropdown"><a class="dropdown-item border-0 transition-link" href="~/distribution/index.html">Anasayfa</a><a class="dropdown-item border-0 transition-link" href="/Urunler/KategorilerIndex">Kategoriler</a><a class="dropdown-item border-0 transition-link" href="detail.html">Ürün Ayrıntısı</a><a class="dropdown-item border-0 transition-link" href="~/distribution/cart.html">Alışveriş Sepeti</a><a class="dropdown-item border-0 transition-link" href="~/distribution/checkout.html">Çıkış yap</a></div>
+									</li>
+								}
+							}
+
+							else
+							{
+								<li class="nav-item">
+									<!-- Link--><a class="nav-link active" href="~/Anasayfa/AnasayfaIndex">Anasayfa</a>
+								</li>
+								@* <li class="nav-item">
+									<!-- Link--><a class="nav-link" href="/Urunler/UrunIndex">Mağaza</a>
+								</li> *@
+							@* 	<li class="nav-item">
+									<!-- Link--><a class="nav-link" href="/Sepetler/SepetIndex">Ürünler</a>
+								</li> *@
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" id="pagesDropdown" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ürünler</a>
+									<div class="dropdown-menu mt-3 shadow-sm" aria-labelledby="pagesDropdown"><a class="dropdown-item border-0 transition-link" href="~/Anasayfa/AnasayfaIndex">Anasayfa</a><a class="dropdown-item border-0 transition-link" href="shop.html">Kategoriler</a><a class="dropdown-item border-0 transition-link" href="detail.html">Ürün Detayları</a><a class="dropdown-item border-0 transition-link" href="/Sepetler/SepetIndex">Alışveriş Sepeti</a><a class="dropdown-item border-0 transition-link" href="~/distribution/checkout.html">Çıkış Yap</a></div>
+								</li>
+
+							}
+						</ul>
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item"><a class="nav-link" href="/Sepetler/SepetIndex"> <i class="fas fa-dolly-flatbed me-1 text-gray"></i>Sepet<small class="text-gray fw-normal" id="sepetSayisi">(0)</small></a></li>
+							<li class="nav-item"><a class="nav-link" href="#!"> <i class="far fa-heart me-1"></i><small class="text-gray fw-normal"> (0)</small></a></li>
+
+
+							@if (Context.Session.GetString("userName") != null)
+							{
+								<li class="nav-item dropdown">
+									<a href="#" class="nav-link dropdown-toggle" id="pagesDropdown"  aria-haspopup="true" aria-expanded="false"><span class="bi-box-arrow-in-right bi person">@Context.Session.GetString("userName")</span></a>
+									<ul class="dropdown-menu mt-3 shadow-sm" aria-labelledby="pagesDropdown">
+										@if (Context.Session.GetString("userYetki").ToString() == YetkilerEnum.Admin.GetHashCode().ToString() || Context.Session.GetString("userYetki").ToString() == YetkilerEnum.Personel.GetHashCode().ToString())
+										{
+											<li><a class="dropdown-item" href="~/AdminPanel/AdminAansayfa/AdminAnasayfaIndex/@TempData["kullaniciId"]">Admin Paneli</a></li>
+										}
+										<li class="dropdown-item">
+											<a href="~/Kullanici/KullaniciCikis">Çıkış</a>
+										</li>
+									</ul>
+								</li>
+							}
+							else
+							{
+								<a class="nav-link dropdown-toggle" id="pagesDropdown" href="~/Kullanici/GirisIndex"  aria-haspopup="true" aria-expanded="false"> <i class="fas fa-user me-1 text-gray fw-normal"></i>Giriş</a>
+							}
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!--  Modal -->
+		<div class="modal fade" id="productView" tabindex="-1">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content overflow-hidden border-0">
+					<button class="btn-close p-4 position-absolute top-0 end-0 z-index-20 shadow-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+					<div class="modal-body p-0">
+						<div class="row align-items-stretch">
+							<div class="col-lg-6 p-lg-0"><a class="glightbox product-view d-block h-100 bg-cover bg-center" style="background: url(/distribution/img/product-5.jpg)" href="~/distribution/img/product-5.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a><a class="glightbox d-none" href="img/product-5-alt-1.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a><a class="glightbox d-none" href="~/distribution/img/product-5-alt-2.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a></div>
+							<div class="col-lg-6">
+								<div class="p-4 my-md-4">
+									<ul class="list-inline mb-2">
+										<li class="list-inline-item m-0"><i class="fas fa-star small text-warning"></i></li>
+										<li class="list-inline-item m-0 1"><i class="fas fa-star small text-warning"></i></li>
+										<li class="list-inline-item m-0 2"><i class="fas fa-star small text-warning"></i></li>
+										<li class="list-inline-item m-0 3"><i class="fas fa-star small text-warning"></i></li>
+										<li class="list-inline-item m-0 4"><i class="fas fa-star small text-warning"></i></li>
+									</ul>
+									<h2 class="h4">Red digital smartwatch</h2>
+									<p class="text-muted">$250</p>
+									<p class="text-sm mb-4"> </p>
+									<div class="row align-items-stretch mb-4 gx-0">
+										<div class="col-sm-7">
+											<div class="border d-flex align-items-center justify-content-between py-1 px-3">
+												<span class="small text-uppercase text-gray mr-4 no-select">Quantity</span>
+												<div class="quantity">
+													<button class="dec-btn p-0"><i class="fas fa-caret-left"></i></button>
+													<input class="form-control border-0 shadow-0 p-0" type="text" value="1">
+													<button class="inc-btn p-0"><i class="fas fa-caret-right"></i></button>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-5"><a class="btn btn-dark btn-sm w-100 h-100 d-flex align-items-center justify-content-center px-0" href="~/Anasayfa/DetailIndex">İncele</a></div>
+									</div><a class="btn btn-link text-dark text-decoration-none p-0" href="#!"><i class="far fa-heart me-2"></i>Add to wish list</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- HERO SECTION-->
+		<div class="container">
+			@RenderBody()
+		</div>
+		<footer class="bg-dark text-white">
+			<div class="container py-4">
+				<div class="row py-5">
+					<div class="col-md-4 mb-3 mb-md-0">
+						<h6 class="text-uppercase mb-3">Müşteri Hizmetleri</h6>
+						<ul class="list-unstyled mb-0">
+							<li><a class="footer-link" href="#!">Yardım İçin Bize Ulaşın</a></li>
+							<li><a class="footer-link" href="#!">iletişim numaramız</a></li>
+							<li><a class="footer-link" href="#!">0541 823 5341</a></li>
+							<li><a class="footer-link" href="https://www.instagram.com/modabyayse?igsh=MWlpa3J2a3JpaWRobw==">İnstagram</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 mb-3 mb-md-0">
+						<h6 class="text-uppercase mb-3">Şirket</h6>
+						<ul class="list-unstyled mb-0">
+							<li><a class="footer-link" href="https://www.instagram.com/modabyayse?igsh=MWlpa3J2a3JpaWRobw==">Ne Yapıyoruz?</a></li>
+							<li><a class="footer-link" href="https://www.instagram.com/modabyayse?igsh=MWlpa3J2a3JpaWRobw==">Mevcut Hizmetler</a></li>
+							<li><a class="footer-link" href="https://www.instagram.com/modabyayse?igsh=MWlpa3J2a3JpaWRobw==">Son Gönderiler</a></li>
+							
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<h6 class="text-uppercase mb-3">Sosyal Medya</h6>
+						<ul class="list-unstyled mb-0">
+							<li><a class="footer-link" href="https://www.instagram.com/modabyayse?igsh=MWlpa3J2a3JpaWRobw==">Instagram</a></li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="border-top pt-4" style="border-color: #1d1d1d !important">
+					<div class="row">
+						<div class="col-md-6 text-center text-md-start">
+							<p class="small text-muted mb-0">2024</p>
+						</div>
+						<div class="col-md-6 text-center text-md-end">
+							<p class="small text-muted mb-0">MOD'A by <a class="text-white reset-anchor" href="https://www.instagram.com/modabyayse?igsh=MWlpa3J2a3JpaWRobw==">AYSE</a></p>
+							<!-- If you want to remove the backlink, please purchase the Attribution-Free License. See details in readme.txt or license.txt. Thanks!-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- JavaScript files-->
+
+		<script src="~/distribution/vendor/glightbox/js/glightbox.min.js"></script>
+		<script src="~/distribution/vendor/nouislider/nouislider.min.js"></script>
+		<script src="~/distribution/vendor/swiper/swiper-bundle.min.js"></script>
+		<script src="~/distribution/vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+		<script src="~/distribution/js/front.js"></script>
+		<script>
+			// ------------------------------------------------------- //
+			//   Inject SVG Sprite -
+			//   see more here
+			//   https://css-tricks.com/ajaxing-svg-sprite/
+			// ------------------------------------------------------ //
+			function injectSvgSprite(path) {
+
+				var ajax = new XMLHttpRequest();
+				ajax.open("GET", path, true);
+				ajax.send();
+				ajax.onload = function (e) {
+					var div = document.createElement("div");
+					div.className = 'd-none';
+					div.innerHTML = ajax.responseText;
+					document.body.insertBefore(div, document.body.childNodes[0]);
+				}
+			}
+			// this is set to BootstrapTemple website as you cannot
+			// inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+			// while using file:// protocol
+			// pls don't forget to change to your domain :)
+			injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg');
+
+		</script>
+		<!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		@RenderSection("MenuSecimi", false)
+	</div>
+
+</body>
+<script src="~/distribution/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/sepetscript/sepet.js"></script>
+</html>

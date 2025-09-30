@@ -1,0 +1,12 @@
+﻿
+
+<h5 class="text-uppercase mb-4">Kategoriler</h5>
+<div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase fw-bold">Kategoriler</strong></div>
+<ul class="list-unstyled small text-muted ps-lg-4 font-weight-normal">
+    @foreach (var item in (List<ETicaret.Core.ETicaretDatabase.Kategoriler>)TempData["kategoriler"])
+    {
+        <li class="mb-2"><a class="reset-anchor" onclick="Kategori('' + @item.Id + '')" href="~/Urunler/UrunDetayIndex/@item.Id">@item.KategoriAdi</a></li>
+    }
+
+
+</ul>

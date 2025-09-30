@@ -1,0 +1,60 @@
+﻿@using ETicaret.Core.ETicaretDatabase
+
+@model ErisimAlanlari
+
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-12">
+                <!-- jquery validation -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Erisim Alanı Güncelle</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <form asp-action="AdminErisimAlaniGuncelle" id="adminErisimAlaniGuncelle" asp-controller="ErisimAlanlari" method="post">
+
+                        <div class="card-body">
+
+
+                            <div class="form-group">
+                                <label asp-for="ControllerAdi">Controller Adı</label>
+                                <input name="ControllerAdi" asp-for="ControllerAdi" type="text" class="form-control" value="@Model.ControllerAdi" placeholder="Controller Adı">
+                                <span asp-validation-for="ControllerAdi" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="ViewAdi">View Adı</label>
+                                <input name="ViewAdi" asp-for="ViewAdi" type="text" class="form-control" value="@Model.ViewAdi" placeholder="View Adı">
+                                <span asp-validation-for="ViewAdi" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Aciklama">Erisim Alanı Açıklama</label>
+                                <input name="Aciklama" asp-for="Aciklama" type="text" class="form-control" placeholder="Erişim Alanı Açıklaması" value="@Model.Aciklama">
+                                <span asp-validation-for="Aciklama" class="text-danger"></span>
+                            </div>
+
+                        </div>
+
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-warning" value="Erişim Alanı Güncelle" />
+                        </div>
+                        <div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section addBottomLibrary {
+
+    <script src="~/AdminLTE/plugins/jquery-validation/jquery.validate.js"></script>
+}
+

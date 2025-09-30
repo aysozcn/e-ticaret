@@ -1,0 +1,76 @@
+﻿@using ETicaret.Core.ETicaretDatabase
+@model Kategoriler
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="~/AdminPanel/Kategoriler/KategorilerIndex">Kategori Listesi</a></li>
+                    <li class="breadcrumb-item active">Kategori Güncelle</li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-12">
+                <!-- jquery validation -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">KATEGORİ GÜNCELLE</h3>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="KategoriGuncelleIndex" id="kategoriGuncelleIndex" asp-controller="Kategoriler" method="post">
+                            <input type="text" id="id" name="name" value="@Model.Id" hidden />
+                            <div class="form-group">
+                                <label asp-for="UrunAdi">Kategori Adı</label>
+                                <input name="KategoriAdi" asp-for="KategoriAdi" type="text" class="form-control" value="@Model.KategoriAdi" placeholder="Kategori Adı">
+                                <span asp-validation-for="KategoriAdi" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Aciklama">Açıklama</label>
+                                <input name="Aciklama" asp-for="Aciklama" type="text" value="@Model.Aciklama" class="form-control" placeholder="Açıklama">
+                                <span asp-validation-for="Aciklama" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.AktifMi, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    <div class="checkbox">
+                                        @Html.EditorFor(model => model.AktifMi)
+                                        @Html.ValidationMessageFor(model => model.AktifMi, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            @* <div class="form-group">
+                            <label asp-for="AktifMi">Aktif Mi</label>
+                            <div class="col-md-10">
+                            <div class="checkbox">
+                            <input asp-for="AktifMi" type="checkbox" class="text-danger" @(Model.AktifMi ? "checked='checked'" : "")>
+                            <span asp-validation-for="AktifMi" class="text-danger"></span>
+                            </div>
+                            </div>
+                            </div> *@
+
+
+                            <div class="card-footer">
+                                <input type="submit" class="btn btn-success" value="Kategori Kaydet" />
+                            </div>
+                        </form>
+                        @Html.Raw(TempData["mesaj"])
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

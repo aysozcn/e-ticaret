@@ -1,0 +1,62 @@
+﻿@using ETicaret.Core.DTO
+
+@model List<YetkilerDTO>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-12">
+                <!-- jquery validation -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">YETKİ EKLE</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <form id="yetkiEkleForm" action="~/AdminPanel/AdminYetkiler/AdminYetkilerKaydetIndex" method="post">
+                        <div class="card-body">
+
+                            <div class="form-group">
+                                <label asp-for="YetkiAdi">Yetki Adı</label>
+                                <input name="YetkiAdi" asp-for="YetkiAdi" type="text" class="form-control" placeholder="Yetki Adı">
+                                <span asp-validation-for="YetkiAdi" class="text-danger"></span>
+                            </div>
+@*                              <div class="form-group">
+                            <label asp-for="Id"></label>
+                            <input name="Id" asp-for="Id" type="text" class="form-control" value="@Model.Id" placeholder="Yetki ID">
+                            <span asp-validation-for="YetkiId" class="text-danger"></span>
+                            </div> 
+ *@
+                        </div>
+                        <div class="card card-info card-outline">
+                            <div class="card-header">
+                                <h5 class="card-title">Görülebilir Alanlar</h5>
+                            </div>
+                            <div class="card-body">
+                                @foreach (var item in ViewData["erisimAlani"] as List<ErisimAlanlariDTO>)
+                                {
+                                    <div class="custom-control custom-checkbox">
+                                        <input class="custom-control-input" type="checkbox" id="customCheckbox(@item.Id)" name="selectedSayfalar" value="@item.Id">
+                                        <label for="customCheckbox(@item.Id)" class="custom-control-label">@item.ControllerAdi</label>
+                                    </div>
+                                }
+
+                            </div>
+                        </div>
+
+
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-success">YETKİ EKLE</button>
+                        </div>
+                        <div>
+                            @Html.Raw(ViewBag.mesaj)
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

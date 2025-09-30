@@ -1,0 +1,49 @@
+﻿<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Erişim Alanı Ekle</h3>
+                    </div>
+                    <form asp-action="AdminErisimAlanlariEkle" id="adminErisimAlanlariEkle" asp-controller="ErisimAlanlari" method="post">
+
+                        <div class="card-body">
+
+
+                            <div class="form-group">
+                                <label asp-for="controllerAdi">Controller Adı</label>
+                                <input name="controllerAdi" asp-for="controllerAdi" type="text" class="form-control" placeholder="Controller Adı">
+                                <span asp-validation-for="controllerAdi" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="viewAdi">View Adı</label>
+                                <input name="viewAdi" asp-for="viewAdi" type="text" class="form-control" placeholder="View Adı">
+                                <span asp-validation-for="viewAdi" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="aciklama">Erisim Alanı Açıklama</label>
+                                <input name="aciklama" asp-for="aciklama" type="text" class="form-control" placeholder="Erişim Alanı Açıklaması">
+                                <span asp-validation-for="aciklama" class="text-danger"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-success" value="Erişim Alanı Ekle" />
+                        </div>
+                        <div>
+                            @Html.Raw(ViewBag.mesaj)
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section addBottomLibrary {
+
+    <script src="~/AdminLTE/plugins/jquery-validation/jquery.validate.js"></script>
+}

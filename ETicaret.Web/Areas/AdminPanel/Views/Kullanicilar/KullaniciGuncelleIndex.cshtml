@@ -1,0 +1,136 @@
+﻿@using ETicaret.Core.ETicaretDatabase
+@using ETicaret.Core.DTO
+@model Tuple<List<Yetkiler>,GetKullanicilarWithYetkilerDTO>
+
+
+<div class="content-header">
+	<div class="container-fluid">
+		<div class="row mb-2">
+			<div class="col-sm-6">
+			</div>
+			<div class="col-sm-6">
+				<ol class="breadcrumb float-sm-right">
+					<li class="breadcrumb-item"><a href="~/AdminPanel/Kullanicilar/KullanicilarIndex">Kullanıcı Listesi</a></li>
+					<li class="breadcrumb-item active">Kullanıcı Güncelle</li>
+				</ol>
+			</div><!-- /.col -->
+		</div><!-- /.row -->
+	</div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<!-- Main content -->
+
+<section class="content">
+	<div class="container-fluid">
+		<div class="row">
+			<!-- left column -->
+			<div class="col-md-12">
+				<!-- jquery validation -->
+				<div class="card card-primary">
+					<div class="card-header">
+						<h3 class="card-title">Kullanıcı GÜNCELLE</h3>
+					</div>
+					<!-- /.card-header -->
+					<!-- form start -->
+					<form asp-action="KullaniciGuncelleIndex" asp-controller="Kullanicilar" method="post">
+
+						<div class="card-body">
+
+							<div class="form-group">
+								<label asp-for="Adi">Kullanıcı Adı</label>
+								<input name="Adi" asp-formaction="Adi" type="text" class="form-control" placeholder="Kullanıcı Adı alanı">
+								<span asp-validation-for="Adi" class="text-danger"></span>
+							</div>
+
+
+							<div class="form-group">
+								<label asp-for="Soyadi">Kullanıcı Soyadı</label>
+								<input name="Soyadi" asp-formaction="Soyadi" type="text"  class="form-control" placeholder="Kullanıcı Soyadı alanı">
+								<span asp-validation-for="Soyadi" class="text-danger"></span>
+							</div>
+
+							<div class="form-group">
+								<label asp-for="Email">Kullanıcı Email</label>
+								<input name="Email" asp-formaction="Email" type="text"  class="form-control" placeholder="Kullanıcı Email alanı">
+								<span asp-validation-for="Email" class="text-danger"></span>
+							</div>
+
+							<div class="form-group">
+								<label asp-for="PersonelMi">PersonelMi</label>
+								<input name="PersonelMi" asp-formaction="PersonelMi" type="text"  class="form-control" placeholder="Personel mi değil mi alanı">
+								<span asp-validation-for="PersonelMi" class="text-danger"></span>
+							</div>
+
+							<div class="form-group">
+								<label asp-for="YetkiId">Yetki Adı Seçiniz</label>
+								<select name="YetkiId" asp-for="YetkiId" class="form-control">
+									<option selected ></option>
+									@foreach (var item in Model.Item1)
+									{
+										<option value="@item.Id">@item.YetkiAdi</option>
+									}
+								</select>
+								<span asp-validation-for="YetkiId" class="text-danger"></span>
+							</div>
+
+						</div>
+
+						<div class="card-footer">
+							<input type="submit" class="btn btn-warning" value="Kullanıcı Güncelle">
+						</div>
+						<div>
+							@Html.Raw(TempData["hataMesaji"])
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+@section addBottomLibrary {
+
+	<script src="~/AdminLTE/plugins/jquery-validation/jquery.validate.js"></script>
+	<script>
+		$(function () {
+
+			$('#KullaniciGuncelleIndex').validate({
+				rules: {
+					makaleKategori: {
+						required: true
+					},
+					makaleBaslik: {
+						required: true
+					},
+					makaleIcerik: {
+						required: true
+					}
+
+				},
+				messages: {
+					makaleKategori: {
+						required: "Makale Kategori alanı zorunludur"
+					},
+					makaleBaslik: {
+						required: "Başlık alanı zorunludur"
+					},
+					makaleIcerik: {
+						required: "Makale İçerik alanı zorunludur"
+					}
+				},
+				errorElement: 'span',
+				errorPlacement: function (error, element) {
+					error.addClass('invalid-feedback');
+					element.closest('.form-group').append(error);
+				},
+				highlight: function (element, errorClass, validClass) {
+					$(element).addClass('is-invalid');
+				},
+				unhighlight: function (element, errorClass, validClass) {
+					$(element).removeClass('is-invalid');
+				}
+			});
+		});
+
+	</script>
+}
